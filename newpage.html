@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="javascript/jquery.js"></script>
     <script type="text/javascript" src="javascript/main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7/firebase-auth.js"></script>
+    <script src="javascript/initialize.js"></script>
+    <script src="javascript/login.js"></script>
+    <script src="javascript/listener.js"></script>
     <title></title>
 </head>
-<body style="  background-color: rgb(190, 189, 189);">
-        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="index.html" style="all: unset;color:grey;cursor: pointer;font-size: 17px;;"><strong>Home</strong></a>
+<body style="background-color: rgb(197, 194, 194); margin: 0px 50px 0px 50px;padding-top: 5px;">
+
+
+  <header class="nav">
+    <div class="nav-box">
+      <span class=""><a href="index.html">Home</a></span>&nbsp&nbsp
+      <span class=""><a href="#">Nation</a></span>&nbsp&nbsp
+      <span class=""><a href="#">Sports</a></span>&nbsp&nbsp
+      <span class=""><a href="#">Politics</a></span>&nbsp&nbsp
+      <span class=""><a href="#">Entertainment</a></span>&nbsp&nbsp
+      <span class=""><a href="#">Search</a></span>&nbsp&nbsp
+      <span class=""><a href="#">Contact Us</a></span>
+    </div>
+  </header>
+  <hr>
+        <!-- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="index.html" style="all: unset;color:grey;cursor: pointer;font-size: 17px;;"><strong>Home</strong></a> -->
 
     <span class="details">
         
@@ -43,6 +64,33 @@
             <p name="0cf4" id="0cf4" class="graf graf--p graf-after--p">But it’s not as if Mumbai has no roast meat sandwiches. My racist&#8202;—&#8202;but friendly&#8202;—&#8202;driving instructor had once pointed out an Armenian restaurant that she recommended. This place served up delicious chicken shawarma sandwiches and a garlic sauce I could eat with my fingers.</p>
             <p name="59f5" id="59f5" class="graf graf--p graf-after--p graf--trailing">Eventually, I would drift back to Mumbai. The first thing I would order upon my return? A gyro, a word that rhymes with “pie-whoa.”</p>
     </span>
+    <hr>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <br>
+          <div class="aboutus">
+            <a href="aboutus.html">About us</a><a>Privacy policy</a><a>Newsletter</a><a>Sitemap</a>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text"><b>FOLLOW US ON</b></h5>
+            <a class="fa fa-facebook" target="_blank" href="https://www.facebook.com/suvenconsultants/"></a>
+            <a class="fa fa-twitter"></a>
+            <a class="fa fa-google" target="_blank" href="https://www.google.co.in/search?nfpr=1&q=suven+consultants&spell=1&sa=X&ved=0ahUKEwidoubh1dXdAhWFNY8KHfrxBZoQBQgpKAA&biw=1366&bih=657#lrd=0x3be7c8afbfffffff:0xcf0cd79d3c52220a,1,,,"></a>
+            <a class="fa fa-rss"></a>
+            <a class="fa fa-youtube" href="https://www.youtube.com/user/rockyjagtiani" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <h5>
+            <p>Copyright © 2019 <a>Suven Consultants and technology pvt ltd</a>All rights reserved</b>
+            </p>
+          </h5><br>
+        </div>
+      </div>
+    </footer>
     
     <script>
         $(document).ready(function(){
